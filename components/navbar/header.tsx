@@ -6,7 +6,7 @@ import UserButton from "./user-button";
 
 const Header = () => {
   return (
-    <div className="py-5 bg-primary fixed w-full border-b border-gray-500">
+    <div className="py-5 bg-primary fixed w-full border-b border-gray-500 z-10">
       <Container>
         <div className="flex items-center justify-between">
           <Logo />
